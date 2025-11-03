@@ -7,49 +7,51 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Nature's first green is gold,
-        <br />
-        Her hardest hue to hold.
-        <br />
-        Her early leaf's a flower;
-        <br />
-        But only so an hour.
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Nature's first green is gold,
+          <br />
+          Her hardest hue to hold.
+          <br />
+          Her early leaf's a flower;
+          <br />
+          But only so an hour.
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/huxrce" target="_blank">Erica Hu</a>, it's
-      open-sourced on
-      <a
-        href="https://github.com/huxrce/ai-poem-genetator"
-        target="_blank"
-        rel="noopener noreferrer"
-        >GitHub</a
-      >
-      and hosted on
-      <a
-        href="https://ai-poem-generator-xo28.onrender.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Render</a
-      >
-    </footer>
-
+      <footer>
+        This project was coded by
+        <a href="https://github.com/huxrce" target="_blank">Erica Hu</a>, it's
+        open-sourced on
+        <a
+          href="https://github.com/huxrce/ai-poem-genetator"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+        and hosted on
+        <a
+          href="https://ai-poem-generator-xo28.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Render</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
